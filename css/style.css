@@ -10,8 +10,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 60vw;
+}
 
-
+#calculator-container {
+    grid-template-rows: auto;
 }
 
 .symbol,
