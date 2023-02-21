@@ -6,10 +6,13 @@ body {
 }
 
 .calculator {
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 60vw;
+    width: 50vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #calculator-container {
@@ -21,9 +24,14 @@ body {
     display: flex;
     justify-content: center;
     margin: 2%;
+    background: rgb(202, 175, 225);
+    border-radius: 10%;
 }
 
 .screen{
     grid-column: 1 / 5;
     margin: 2%;
+    text-align: end;
+    
 }
+
